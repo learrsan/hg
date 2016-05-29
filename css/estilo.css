@@ -1,0 +1,301 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+
+body
+{
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+	background-color:#F4F4F4;
+}
+a
+{
+	text-decoration: none;
+}
+
+/* CABECERA */
+.cabecera
+{
+	width: 100%;
+	height: auto;
+	background-color: #293134;
+}
+.contenido-cabecera
+{
+	width:960px;
+	margin: auto;
+	color: #ffffff;
+	font-size: 1.1em;
+	transition: 0.4s all;
+	padding-top:15px;
+}
+.contenido-cabecera span 
+{
+	transition: 0.4s all;
+}
+.contenido-cabecera span:hover 
+{
+	color: #026EBD;
+}
+.logo
+{
+	margin:5px 0;
+	width: 400px;
+	
+}
+.logo img
+{
+	width:400px;
+}
+
+/* REDES */
+.redes
+{
+	float: right;
+	margin-top: -120px;
+	font-size:25px;
+	color: #bbbbbb;
+}
+.redes a
+{
+	transition: 0.4s all;
+	margin-left:5px;
+}
+.redes a:hover
+{
+	opacity: 0.5;
+}
+.redes a:visited{color: #bbbbbb;}
+.redes a:link{color: #bbbbbb;}
+.redes a:active{color: #bbbbbb;}
+
+.redes span
+{
+	font-size: 15px;
+	color: #DEAD2C;
+	margin-right: 5px;
+}
+
+.redes span:hover
+{
+	color:#edd38f;
+	
+}
+
+/* MENU */
+.menu
+{
+	width:960px;
+	margin: auto;
+	color: #bbbbbb;
+	font-size: 19px;
+}	
+
+.menu ul
+{
+	list-style-type: none;
+    margin:0 0 0 280px;
+    padding:10px 0px 10px 20px;
+	
+}
+.menu li
+{
+	display:inline;
+	padding:10px 0 10px 40px;
+}
+.menu li a
+{
+	transition: 0.4s all;
+}
+.menu li a:hover
+{
+	color:#ffffff;
+}
+.menu a:visited{color: #bbbbbb;}
+.menu a:link{color: #bbbbbb;}
+.menu a:active{color: #bbbbbb;}
+
+.miga
+{
+	color: #ffffff;
+}
+.miga a:visited{color: #ffffff;}
+.miga a:link{color: #ffffff;}
+.miga a:active{color: #ffffff;}
+
+.eslaider img
+{
+	width: 100%;
+	
+}
+
+/* CONTENIDO */
+.cuerpo
+{
+	height: auto;
+	width: 960px;
+	margin: auto;	
+}
+
+/* INDEX */
+.bienvenida
+{
+	text-align:justify;
+	font-size: 20px;
+	box-shadow: 2px 2px 5px #a4a4a4;
+	padding: 10px 20px;
+	margin:10px auto;
+}
+.noticias
+{
+	margin:10px auto;
+	padding: 5px;
+}
+
+/* SERVICIOS */
+
+.servicio
+{
+	width:300px;
+	height: 250px;
+	/* box-shadow: 2px 2px 5px #a4a4a4; */
+	margin: 0 10px 20px 10px;
+	float:left;
+	font-size: 25px;
+	/* background-color: #eaeaea; */
+	background-color: #293134;
+	color: #ffffff;
+	text-align:center;
+}
+.servicio img
+{
+	width: 300px;
+}
+
+#servicio1
+{
+	width:280px;
+	height:230px;
+	background-color:#293134;
+	margin: 0 0 0 10px;
+	transition: 0.5s all;
+	position:absolute;
+	display:none;
+	color: #ffffff;
+	padding:10px;
+	opacity:0.8;
+}
+#servicio2
+{
+	width:280px;
+	height:230px;
+	background-color:#293134;
+	margin: 0  0 0 330px;
+	transition: 0.5s all;
+	position:absolute;
+	display:none;
+	color: #ffffff;
+	padding:10px;
+	opacity:0.8;
+}
+#servicio3
+{
+	width:280px;
+	height:230px;
+	background-color:#293134;
+	margin:  0 0 0 650px;
+	transition: 0.5s all;
+	position:absolute;
+	display:none;
+	color: #ffffff;
+	padding:10px;
+	opacity:0.8;
+}
+#servicio4
+{
+	width:280px;
+	height:230px;
+	background-color:#293134;
+	margin:  270px 0 0 10px;
+	transition: 0.5s all;
+	position:absolute;
+	display:none;
+	color: #ffffff;
+	padding:10px;
+	opacity:0.8;
+}
+#servicio5
+{
+	width:280px;
+	height:230px;
+	background-color:#293134;
+	margin:  270px 0 0 330px;
+	transition: 0.5s all;
+	position:absolute;
+	display:none;
+	color: #ffffff;
+	padding:10px;
+	opacity:0.8;
+}
+#servicio6
+{
+	width:280px;
+	height:230px;
+	background-color:#293134;
+	margin:  270px 0 0 650px;
+	transition: 0.5s all;
+	position:absolute;
+	display:none;
+	color: #ffffff;
+	padding:10px;
+	opacity:0.8;
+}
+/* PIE */
+.pie
+{
+	width: 100%;
+	background-color: #293134;
+	bottom: 0px;
+	float:left;
+	position:relative;
+	/* margin-top: 55px; */
+	
+}
+.pie img
+{
+	width:40px;
+}
+.contenido-pie
+{
+	width: 960px;
+	height:auto;
+	margin: 0 auto;
+	color: #777777;
+	font-size: 1em;
+	transition: 0.4s all;
+	padding:10px 0;
+}
+.aviso
+{
+	float:right;
+	color: #777777;
+	font-size: 1em;
+	transition: 0.4s all;
+	padding-top:15px;
+}
+
+@media (min-width: 600px) and (orientation: portrait){
+  .menu
+  {
+	  display: none;
+  }
+  .cabecera
+  {
+	 padding-bottom: 20px;
+	  	  
+  }
+  .redes
+  {
+	  display:none;
+  }
+  
+}
